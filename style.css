@@ -90,3 +90,10 @@ h1 {
 p {
     color:rgb(218, 49, 224);
 }
+
+.container {
+    display: grid;
+    align-items: center;
+    height: 600px;
+    border: 2px solid #006100;
+}

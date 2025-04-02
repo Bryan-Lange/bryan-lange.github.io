@@ -1,29 +1,38 @@
+
 body {
-    background-color: #000;
-    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: inline-block;
 }
 
 .btn {
     position: relative;
     display: inline-block;
-    width: 200px;
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
-    color: #fff;
-    font-size: 24px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
     font-family: sans-serif;
     box-sizing: border-box;
     background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
     background-size: 400%;
-    border-radius: 30px;
+    border-radius: 15px;
     z-index: 1;
 }
 
 .btn:hover {
-    animation: animate 8s linear infinite;
+    animation: animate 5s linear infinite;
 }
 
 @keyframes animate {
@@ -34,66 +43,4 @@ body {
     100% {
         background-position: 400%;
     }
-}
-
-.btn:before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    bottom: -5px;
-    left: -5px;
-    z-index: -1;
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-    background-size: 400%;
-    border-radius: 40px;
-    opacity: 0;
-    transition: .5s;
-}
-
-.btn:hover:before {
-    filter: blur(20px);
-    opacity: 1;
-    animation: animate 8s linear infinite;
-}
-
-button {
-    background-color: #ed76c6;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 12px;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-div {
-    text-align: center;
-}
-
-@media (min-width: 600px) {
-    body {
-        flex-wrap: nowrap;
-    }
-}
-
-h1 {
-    color:rgb(10, 238, 223);
-    text-align:center;
-}
-
-p {
-    color:rgb(218, 49, 224);
-}
-
-.container {
-    display: grid;
-    align-items: center;
-    height: 600px;
-    border: 2px solid #006100;
 }

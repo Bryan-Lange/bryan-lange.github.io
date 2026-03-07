@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bryan Lange — D.R.E.A.M.</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Bebas+Neue&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
@@ -233,7 +234,7 @@
       font-family: 'Share Tech Mono', monospace;
       font-size: 0.8rem;
       letter-spacing: 0.15em;
-      text-transform: uppercase;
+      --text-transform: uppercase;
       padding: 0.85rem 2rem;
       border-radius: 2px;
       text-decoration: none;
@@ -326,7 +327,7 @@
       font-size: 0.7rem;
       letter-spacing: 0.35em;
       color: var(--matrix-green);
-      text-transform: uppercase;
+      --text-transform: uppercase;
       margin-bottom: 0.6rem;
       display: flex;
       align-items: center;
@@ -613,7 +614,7 @@
       letter-spacing: 0.15em;
       color: var(--matrix-green);
       text-decoration: none;
-      text-transform: uppercase;
+      --text-transform: uppercase;
       padding: 0.7rem 1.5rem;
       border: 1px solid rgba(0,255,65,0.3);
       transition: all 0.25s;
@@ -630,7 +631,20 @@
       color: var(--gold-light);
       border-color: var(--gold);
     }
+    .social-link {
+      display: flex;
+      flex-direction: column; /* Stacks the logo and text vertically */
+      align-items: center;    /* Centers them horizontally */
+      justify-content: center; /* Centers them vertically within the box */
+      text-decoration: none;  /* Removes the default underline from the link */
+      text-align: center;
+    }
 
+    .social-link img {
+      margin-bottom: 4px;     /* Adds a little breathing room between logo and text */
+      width: 40px;            /* Adjust size as needed to fit your box */
+      height: auto;
+    }
     footer {
       border-top: 1px solid rgba(200,151,26,0.1);
       padding: 2rem;
@@ -771,7 +785,7 @@
   <!-- Hero -->
   <section id="hero">
     <div class="hero-inner">
-      <p class="hero-tag">// Data Engineer &amp; Developer</p>
+      <p class="hero-tag">// Data Analyst &amp; Developer</p>
       <h1 class="hero-name glitch" data-text="BRYAN LANGE">BRYAN LANGE</h1>
 
       <div class="dream-block">
@@ -781,7 +795,7 @@
         </div>
       </div>
 
-      <p class="hero-sub">Building pipelines, models, and tools that make data work for people.</p>
+      <p class="hero-sub">Building tools that make data work for people, not the other way around.</p>
 
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -802,13 +816,13 @@
     <div class="container">
       <div class="section-header reveal">
         <div class="section-label">01 &mdash; About</div>
-        <h2 class="section-title">Who Is Bryan Lange</h2>
+        <h2 class="section-title">Core Lore</h2>
       </div>
       <div class="about-grid">
         <div class="about-text reveal reveal-delay-1">
-          <p>I'm a <strong>data engineer and developer</strong> who believes that good data infrastructure is the foundation of everything worth building. From pipelines to dashboards to ML experiments, I like working across the full data stack.</p>
-          <p>The acronym is intentional: <strong>Data Rules Everything Around Me</strong>. It's a philosophy as much as a joke — the right data, at the right time, changes decisions.</p>
-          <p>When I'm not wrangling data, I'm probably deep in some rabbit hole involving music, martial arts, or a new library I have no business using yet.</p>
+          <p>I'm a <strong>data analyst and developer</strong> who understands that solid data infrastructure is pivotal for modern digital landscapes. From UI tools to BI dashboards to ML experiments, I love designing solutions that tackle real world problems.</p>
+          <p>The acronym is intentional: <strong>Data Rules Everything Around Me</strong>. I believe information is power, and intelligent decisons are formed through proper data analysis.</p>
+          <p>When I'm not wrangling and enriching data, I'm probably feeling a bit like Alice - tumbling down a rabbit hole involving music, food, or quantum mechanics.</p>
         </div>
         <div class="stat-grid reveal reveal-delay-2">
           <div class="stat-card">
@@ -817,11 +831,11 @@
           </div>
           <div class="stat-card">
             <div class="stat-number">36</div>
-            <div class="stat-label">Chambers unlocked</div>
+            <div class="stat-label">Chambers Unlocked</div>
           </div>
           <div class="stat-card">
             <div class="stat-number">01</div>
-            <div class="stat-label">Motto: D.R.E.A.M.</div>
+            <div class="stat-label">Motto: Dare to D.R.E.A.M.</div>
           </div>
           <div class="stat-card">
             <div class="stat-number">Wu</div>
@@ -892,6 +906,8 @@
           <div class="skill-list">
             <span class="skill-chip">Python</span>
             <span class="skill-chip">SQL</span>
+            <span class="skill-chip">HTML</span>
+            <span class="skill-chip">CSS</span>
             <span class="skill-chip">JavaScript</span>
             <span class="skill-chip">Bash</span>
           </div>
@@ -901,8 +917,7 @@
           <div class="skill-list">
             <span class="skill-chip">Pandas</span>
             <span class="skill-chip">Spark</span>
-            <span class="skill-chip">dbt</span>
-            <span class="skill-chip">Airflow</span>
+            <span class="skill-chip">MySQL</span>
             <span class="skill-chip">Postgres</span>
           </div>
         </div>
@@ -911,7 +926,7 @@
           <div class="skill-list">
             <span class="skill-chip">AWS</span>
             <span class="skill-chip">GCP</span>
-            <span class="skill-chip">Docker</span>
+            <span class="skill-chip">Databricks</span>
             <span class="skill-chip">Git</span>
           </div>
         </div>
@@ -921,7 +936,8 @@
             <span class="skill-chip">scikit-learn</span>
             <span class="skill-chip">Plotly</span>
             <span class="skill-chip">Tableau</span>
-            <span class="skill-chip">Jupyter</span>
+            <span class="skill-chip">PowerBI</span>
+            <span class="skill-chip">D3</span>
           </div>
         </div>
       </div>
@@ -941,13 +957,12 @@
         <p class="contact-line reveal reveal-delay-1">// Open to collaboration, interesting data problems, and good conversation.</p>
         <div class="social-links reveal reveal-delay-2">
           <a href="https://github.com/bryan-lange" class="social-link" target="_blank">
-            ⬡ GitHub
+            <img src="images/github-logo.svg" alt="GitHub Logo"> 
+            Github
           </a>
-          <a href="mailto:your@email.com" class="social-link">
-            ⬡ Email
-          </a>
-          <a href="https://linkedin.com/in/yourprofile" class="social-link" target="_blank">
-            ⬡ LinkedIn
+          <a href="https://www.linkedin.com/in/bryanrobertlange/" class="social-link" target="_blank">
+            <img src="images/linkedin-logo.svg" alt="LinkedIn Logo"> 
+            LinkedIn
           </a>
         </div>
       </div>

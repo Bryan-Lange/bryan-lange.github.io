@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="wu_tang_matrix.png" alt="Wu-Tang x Matrix" width="420"/>
+<img src="/images/wu_matrix.png" alt="Wu-Tang x Matrix" width="420"/>
 
 # `BRYAN LANGE`
 
@@ -24,11 +24,11 @@
 
 ## `// WHO AM I`
 
-Data engineer and developer who believes that good data infrastructure is the foundation of everything worth building. From pipelines to dashboards to ML experiments — I work across the full data stack.
+I'm a data analyst and developer who knows that solid data infrastructure is pivotal for modern digital landscapes. From UI tools to BI dashboards to ML experiments, I love designing solutions that tackle real world problems.
 
-The acronym is intentional: **Data Rules Everything Around Me**. It's a philosophy as much as a joke — the right data, at the right time, changes decisions.
+The acronym is intentional: Data Rules Everything Around Me. I believe information is power, and intelligent decisons are formed through proper data analysis.
 
-When I'm not wrangling data, I'm probably deep in a rabbit hole involving music, martial arts, or a new library I have no business using yet.
+When I'm not wrangling and enriching data, I'm probably feeling a bit like Alice - tumbling down a rabbit hole involving music, food, or quantum mechanics.
 
 ---
 
@@ -74,16 +74,6 @@ When I'm not wrangling data, I'm probably deep in a rabbit hole involving music,
 | **Project Three** | *(coming soon)* | `TBD` |
 
 ---
-
-## `// GITHUB STATS`
-
-<div align="center">
-
-![Bryan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=bryan-lange&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=050a05&title_color=c8971a&icon_color=00ff41&text_color=d4e8d4)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bryan-lange&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=050a05&title_color=c8971a&text_color=d4e8d4)
-
-</div>
 
 ---
 

@@ -6,9 +6,9 @@
 
 ### *Data Rules Everything Around Me*
 
-[![GitHub](https://img.shields.io/badge/GitHub-bryan--lange-00ff41?style=flat-square&logo=github&logoColor=black&labelColor=000)](https://github.com/bryan-lange)
-[![Portfolio](https://img.shields.io/badge/Portfolio-D.R.E.A.M.-c8971a?style=flat-square&logo=googlechrome&logoColor=black&labelColor=000)](https://bryan-lange.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-00ff41?style=flat-square&logo=linkedin&logoColor=black&labelColor=000)](https://linkedin.com/in/yourprofile)
+[![GitHub](https://img.shields.io/badge/GitHub-Bryan--Lange-00FFFF?style=flat-square&logo=github&logoColor=black&labelColor=000)](https://github.com/bryan-lange)
+[![Portfolio:](https://img.shields.io/badge/Portfolio-D.R.E.A.M.-c8971a?style=flat-square&logo=googlechrome&logoColor=black&labelColor=000)](https://bryan-lange.github.io)
+[![LinkedIn:](https://img.shields.io/badge/LinkedIn-Connect-ead1dc?style=flat-square&logo=linkedin&logoColor=black&labelColor=000)](https://linkedin.com/in/bryanrobertlange/)
 
 </div>
 
@@ -83,6 +83,5 @@ When I'm not wrangling and enriching data, I'm probably feeling a bit like Alice
 Wu-Tang is for the Data
 ```
 
-*Built different. Engineered with purpose.*
-
+*There is no spoon*
 </div>

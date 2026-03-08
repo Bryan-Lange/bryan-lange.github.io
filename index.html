@@ -259,6 +259,7 @@
       color: #000;
       font-weight: 700;
       border: none;
+      border-radius: 15px;
     }
 
     .btn-primary:hover {
@@ -270,6 +271,7 @@
       background: transparent;
       color: var(--matrix-green);
       border: 1px solid var(--matrix-green);
+      border-radius: 15px;
     }
 
     .btn-outline:hover {
@@ -381,6 +383,7 @@
     .stat-card {
       background: var(--surface);
       border: 1px solid var(--border);
+      border-radius: 15px;
       padding: 1.4rem;
       position: relative;
       overflow: hidden;
@@ -431,6 +434,7 @@
     .project-card {
       background: rgba(0,10,0,0.8);
       border: 1px solid var(--border);
+      border-radius: 15px;
       padding: 2rem;
       position: relative;
       overflow: hidden;
@@ -538,6 +542,7 @@
     .skill-group {
       background: var(--surface);
       border: 1px solid var(--border);
+      border-radius: 15px;
       padding: 1.5rem;
       position: relative;
     }
@@ -626,6 +631,7 @@
     .social-link:hover {
       background: rgba(0,255,65,0.07);
       border-color: var(--matrix-green);
+      border-radius: 15px;
       box-shadow: 0 0 20px rgba(0,255,65,0.15);
       transform: translateY(-2px);
       color: var(--gold-light);
@@ -795,7 +801,7 @@
         </div>
       </div>
 
-      <p class="hero-sub">Building tools that make data work for people, not the other way around.</p>
+      <p class="hero-sub">Building tools to help make data work for people, not the other way around.</p>
 
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -826,20 +832,20 @@
         </div>
         <div class="stat-grid reveal reveal-delay-2">
           <div class="stat-card">
-            <div class="stat-number">∞</div>
-            <div class="stat-label">Coffee consumed</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number">36</div>
-            <div class="stat-label">Chambers Unlocked</div>
+            <div class="stat-number">00</div>
+            <div class="stat-label">It was all a dream</div>
           </div>
           <div class="stat-card">
             <div class="stat-number">01</div>
             <div class="stat-label">Motto: Dare to D.R.E.A.M.</div>
           </div>
           <div class="stat-card">
-            <div class="stat-number">Wu</div>
-            <div class="stat-label">Tang clan forever</div>
+            <div class="stat-number">36</div>
+            <div class="stat-label">Chambers Unlocked</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Coffee consumed</div>
           </div>
         </div>
       </div>
@@ -958,7 +964,7 @@
         <div class="social-links reveal reveal-delay-2">
           <a href="https://github.com/bryan-lange" class="social-link" target="_blank">
             <img src="images/github-logo.svg" alt="GitHub Logo"> 
-            Github
+            GitHub
           </a>
           <a href="https://www.linkedin.com/in/bryanrobertlange/" class="social-link" target="_blank">
             <img src="images/linkedin-logo.svg" alt="LinkedIn Logo"> 
@@ -979,7 +985,8 @@
     const ctx = canvas.getContext('2d');
 
     let cols, drops;
-    const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789ABCDEF∞∑∆∇∂∫≈≤≥±⊕⊗';
+    const chars = 'BRYAN';
+
 
     function initMatrix() {
       canvas.width = window.innerWidth;

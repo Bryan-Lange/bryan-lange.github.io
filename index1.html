@@ -102,9 +102,9 @@
 
     .wu-title {
       font-family: 'Bebas Neue', cursive;
-      font-size: clamp(1rem, 4vw, 3.5rem);
-      letter-spacing: 0.15em;
-      color: #f0b729;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      letter-spacing: 0.18em;
+      color: #c8971a;
       text-shadow: 0 0 40px rgba(200,151,26,0.5);
       line-height: 1;
     }
@@ -116,35 +116,6 @@
       letter-spacing: 0.12em;
       line-height: 1.6;
       max-width: 220px;
-    }
-
-    /* ── DREAM ACRONYM ROW ── */
-    .wu-acronym-row {
-      display: flex;
-      align-items: baseline;
-      gap: 0.55rem;
-      flex-wrap: nowrap;
-      white-space: nowrap;
-      pointer-events: none;
-    }
-
-    .wu-ac-letter {
-      font-family: 'Bebas Neue', cursive;
-      font-size: clamp(1.6rem, 3.5vw, 2.6rem);
-      color: #f4f805;
-      text-shadow: 0 0 14px #00ff41, 0 0 30px rgba(0,255,65,0.4);
-      letter-spacing: 0.06em;
-      line-height: 1;
-    }
-
-    .wu-ac-word {
-      font-family: 'Share Tech Mono', monospace;
-      font-size: clamp(0.55rem, 1.2vw, 0.78rem);
-      color: #00ffea;
-      letter-spacing: 0.08em;
-      line-height: 1;
-      margin-right: 0.1rem;
-      opacity: 0.75;
     }
 
     .wu-btn {
@@ -204,8 +175,8 @@
     }
 
     .pro-sub {
-      font-size: .9rem;
-      color: #e9f6f8;
+      font-size: 0.8rem;
+      color: #7d8590;
       line-height: 1.7;
       max-width: 220px;
       font-weight: 300;
@@ -246,8 +217,6 @@
       justify-content: center;
     }
 
-    .divider-pill { pointer-events: all; }
-
     .divider-line-top {
       flex: 1;
       width: 1px;
@@ -261,50 +230,17 @@
     }
 
     .divider-pill {
-      background: linear-gradient(90deg, rgba(23,171,230,1) 0%, rgba(250,242,12,1) 50%, rgba(96,237,83,1) 100%);
+      background: linear-gradient(90deg,rgba(23, 171, 230, 1) 0%, rgba(250, 242, 12, 1) 50%, rgba(96, 237, 83, 1) 100%);
       border: 0.5px solid rgba(200,200,200,0.15);
       border-radius: 20px;
       padding: 8px 16px;
-      font-size: 0.75rem;
+      font-size: 0.6rem;
       letter-spacing: 0.14em;
       color: #000000;
       white-space: nowrap;
       text-transform: uppercase;
       animation: pillFade 1s 0.5s ease both;
-      cursor: default;
-      position: relative;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      background-size: 200% 100%;
     }
-
-    .divider-pill:hover {
-      transform: scale(1.14);
-      box-shadow:
-        0 0 12px rgba(23,171,230,0.7),
-        0 0 28px rgba(250,242,12,0.5),
-        0 0 50px rgba(96,237,83,0.4);
-      animation: pillFade 1s 0.5s ease both, pillShimmer 1.4s ease infinite;
-    }
-
-    @keyframes pillShimmer {
-      0%   { background-position: 0% 50%; }
-      50%  { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-
-    .divider-pill::after {
-      content: '';
-      position: absolute;
-      inset: -3px;
-      border-radius: 24px;
-      background: linear-gradient(90deg, rgba(23,171,230,0.4), rgba(250,242,12,0.4), rgba(96,237,83,0.4));
-      filter: blur(6px);
-      opacity: 0;
-      transition: opacity 0.3s ease;
-      z-index: -1;
-    }
-
-    .divider-pill:hover::after { opacity: 1; }
 
     @keyframes pillFade {
       from { opacity: 0; transform: scale(0.88); }
@@ -371,15 +307,10 @@
     <div class="panel panel-wu" onclick="navigate('wu.html', 'wu')">
       <canvas id="matrix-canvas"></canvas>
       <div class="panel-content">
-        <div class="wu-title">Wu-Tang is for the Data</div>
         <img src="images/wu_matrix.png" alt="Wu-Tang Matrix" class="wu-logo" />
-        <div class="wu-acronym-row">
-          <span class="wu-ac-letter">D</span><span class="wu-ac-word">ata</span>
-          <span class="wu-ac-letter">R</span><span class="wu-ac-word">ules</span>
-          <span class="wu-ac-letter">E</span><span class="wu-ac-word">verything</span>
-          <span class="wu-ac-letter">A</span><span class="wu-ac-word">round</span>
-          <span class="wu-ac-letter">M</span><span class="wu-ac-word">e</span>
-        </div>
+        <div class="wu-title">It Was All A</div>
+        <div class="wu-label">D.R.E.A.M.</div>
+        <div class="wu-sub">Data Rules Everything Around Me</div>
         <a class="wu-btn">Enter the Matrix &rarr;</a>
       </div>
     </div>
@@ -396,9 +327,9 @@
       <div class="grid-bg"></div>
       <div class="panel-content">
         <div class="pro-avatar">BL</div>
-        <div class="pro-label">Data Science & Analysis Portfolio</div>
+        <div class="pro-label">Portfolio</div>
         <div class="pro-title">Bryan Lange</div>
-        <div class="pro-sub">Building AI tools and ML systems that turn complexity into clarity 🔮</div>
+        <div class="pro-sub">Data analyst &amp; engineer. Projects, stack, and contact.</div>
         <a class="pro-btn">View Portfolio &rarr;</a>
       </div>
     </div>
